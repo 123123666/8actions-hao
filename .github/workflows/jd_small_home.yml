@@ -3,7 +3,7 @@ name: 东东小窝
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 0,10 * * *'
+    - cron: '13 7 * * *'
   watch:
     types: started
   repository_dispatch:
